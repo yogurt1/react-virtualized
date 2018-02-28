@@ -72,11 +72,6 @@
   "bugs": {
     "url": "https://github.com/bvaughn/react-virtualized/issues"
   },
-  "babel": {
-    "presets": [
-      "./.babelrc.js"
-    ]
-  },
   "jest": {
     "globalSetup": "./source/jest-global-setup.js",
     "globalTeardown": "./source/jest-global-teardown.js",
