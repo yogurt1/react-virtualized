@@ -840,6 +840,7 @@ export default class Grid extends React.PureComponent<Props, State> {
 
   render() {
     const {
+      containerRef,
       autoContainerWidth,
       autoHeight,
       autoWidth,
@@ -922,6 +923,7 @@ export default class Grid extends React.PureComponent<Props, State> {
           <div
             className="ReactVirtualized__Grid__innerScrollContainer"
             role={containerRole}
+            ref={containerRef}
             style={{
               width: autoContainerWidth ? 'auto' : totalColumnsWidth,
               height: totalRowsHeight,
